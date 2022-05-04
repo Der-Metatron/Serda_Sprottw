@@ -1,0 +1,33 @@
+{
+  "users": [
+    {
+    
+      "fName": "John ",
+      "lName": "Smith",
+      "age": "28",
+      "email": "example1@gmail.com"
+    },
+    {
+     
+      "fName": "Sara",
+      "lName": " Johnson",
+      "age": "26",
+      "email": "example2@gmail.com"
+    },
+    {
+   
+      "fName": "Mary",
+      "lName": "Schneider",
+      "age": "32",
+      "email": "example3@gmail.com"
+    },
+    {
+     
+      "fName": "Max",
+      "lName": "Duck",
+      "age": "44",
+      "email":"example4@gmail.com"
+    }
+   
+  ]
+}

@@ -1,0 +1,130 @@
+body .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-top: 10rem;
+  gap: 5px;
+  padding-top: 30px;
+}
+
+body .form h1 {
+  color: yellow;
+}
+
+body .form .input {
+  padding: 12px 10px;
+  width: 40vw;
+  height: 4vh;
+  border: 2px solid;
+  border-radius: 5px;
+  -webkit-box-shadow: 1px 1px 8px 5px black;
+  box-shadow: 1px 1px 8px 5px black;
+}
+
+body .form .input:hover {
+  background-color: #fad9b0;
+}
+
+body .form button {
+  width: 8%;
+  margin-top: 8px;
+  padding: 12px 10px;
+  border-radius: 5px;
+  background-color: orange;
+  -webkit-box-shadow: 1px 1px 5px 5px black;
+  box-shadow: 1px 1px 5px 5px black;
+  border: 2px solid;
+}
+
+body .form button:hover {
+  background-color: orangered;
+}
+
+body table {
+  border: 1px solid;
+  width: 90%;
+  margin-left: 6rem;
+  border-radius: 10px;
+  margin-top: 10rem;
+  background-color: #fff;
+  color: #111;
+  -webkit-box-shadow: 1px 1px 20px 5px black;
+  box-shadow: 1px 1px 20px 5px black;
+  border-spacing: 0;
+}
+
+body table .head {
+  background-color: orange;
+}
+
+body table .head th {
+  padding: 1rem;
+  font-size: 2rem;
+}
+
+body table .td_action {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1rem;
+}
+
+body table .icon_trash {
+  color: red;
+}
+
+body table th,
+body table td {
+  border: 1px solid black;
+  padding: 10px;
+  color: #111;
+}
+
+body table td:hover {
+  background-color: #fad9b0;
+  color: black;
+}
+
+body nav {
+  margin-bottom: 20px;
+}
+
+body nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  background: #111;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+body nav ul li {
+  margin: 0 10px 0 0;
+  list-style: none;
+}
+
+body nav ul li a {
+  color: #eee;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+body nav ul li a.active {
+  color: yellow;
+  font-size: 1.5rem;
+}
+/*# sourceMappingURL=App.css.map */
