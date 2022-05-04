@@ -9,7 +9,6 @@ export const Form = () => {
     fName: "",
     lName: "",
     age: "",
-    email: "",
   });
 
   const onChangeForm = (e) => {
@@ -23,7 +22,7 @@ export const Form = () => {
     axios
       .post("http://localhost:4000/users/new", {
         age: form.age,
-        email: form.email,
+
         firstName: form.fName,
         lastName: form.lName,
       })
@@ -70,16 +69,7 @@ export const Form = () => {
           onChange={onChangeForm}
         />
       </label>
-      <label>
-        <input
-          className="input"
-          name="email"
-          type="text"
-          placeholder="email"
-          value={form.email}
-          onChange={onChangeForm}
-        />
-      </label>
+
       <button className="button" onClick={onClickButton}>
         Submit
       </button>

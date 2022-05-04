@@ -45,7 +45,7 @@ export const Home = () => {
           <tr className="head">
             <th>name</th>
             <th>age</th>
-            <th>email</th>
+
             <th>Action</th>
           </tr>
         </thead>
@@ -57,7 +57,7 @@ export const Home = () => {
                   {user.firstName} {user.lastName}
                 </td>
                 <td>{user.age}</td>
-                <td>{user.email}</td>
+
                 <td className="td_action">
                   <FontAwesome
                     name="trash"

@@ -89,16 +89,7 @@ export const UpdateUser = () => {
           onChange={onChangeForm}
         />
       </label>
-      <label>
-        <input
-          className="input"
-          name="email"
-          type="text"
-          placeholder="email"
-          value={form.email}
-          onChange={onChangeForm}
-        />
-      </label>
+
       <button className="button" onClick={onClickButton}>
         Submit
       </button>
