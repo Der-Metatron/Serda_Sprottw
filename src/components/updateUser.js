@@ -91,7 +91,7 @@ export const UpdateUser = () => {
       </label>
 
       <button className="button" onClick={onClickButton}>
-        Submit
+        Abschicken
       </button>
     </form>
   );

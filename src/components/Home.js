@@ -43,10 +43,9 @@ export const Home = () => {
       <table>
         <thead>
           <tr className="head">
-            <th>name</th>
-            <th>age</th>
-
-            <th>Action</th>
+            <th>Name</th>
+            <th>Alter</th>
+            <th>Bearbeiten</th>
           </tr>
         </thead>
         <tbody>

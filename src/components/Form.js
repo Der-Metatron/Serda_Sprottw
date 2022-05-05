@@ -36,7 +36,6 @@ export const Form = () => {
 
   return (
     <form className="form">
-      <h1>Please fill in this Form: </h1>
       <br />
       <br />
       <label>
@@ -71,7 +70,7 @@ export const Form = () => {
       </label>
 
       <button className="button" onClick={onClickButton}>
-        Submit
+        Abschicken
       </button>
     </form>
   );

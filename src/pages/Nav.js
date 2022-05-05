@@ -6,10 +6,10 @@ export const Nav = () => {
     <nav>
       <ul>
         <li>
-          <NavLink to="/">Home</NavLink>{" "}
+          <NavLink to="/">Liste</NavLink>{" "}
         </li>
         <li>
-          <NavLink to="/form">Form</NavLink>{" "}
+          <NavLink to="/form">Formular</NavLink>{" "}
         </li>
       </ul>
     </nav>
