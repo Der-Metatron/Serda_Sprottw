@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Der-Metatron/Serda_Sprottw/static/css/main.0f304d46.css",
+    "main.js": "/Der-Metatron/Serda_Sprottw/static/js/main.8b46deaf.js",
+    "index.html": "/Der-Metatron/Serda_Sprottw/index.html",
+    "main.0f304d46.css.map": "/Der-Metatron/Serda_Sprottw/static/css/main.0f304d46.css.map",
+    "main.8b46deaf.js.map": "/Der-Metatron/Serda_Sprottw/static/js/main.8b46deaf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0f304d46.css",
+    "static/js/main.8b46deaf.js"
+  ]
+}
