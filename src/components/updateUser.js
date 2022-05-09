@@ -22,7 +22,7 @@ export const UpdateUser = () => {
   useEffect(() => {
     if (id) {
       axios
-        .get("http://localhost:4000/users/" + id)
+        .get("https://backend-serdar-sprotte.herokuapp.com/" + id)
         .then((res) => {
           setForm({
             fName: res.data.firstName,
@@ -40,7 +40,7 @@ export const UpdateUser = () => {
   const onClickButton = (e) => {
     e.preventDefault();
     axios
-      .put("http://localhost:4000/user/" + id, {
+      .put("https://backend-serdar-sprotte.herokuapp.com/" + id, {
         age: form.age,
         email: form.email,
         firstName: form.fName,

@@ -20,7 +20,7 @@ export const Form = () => {
   const onClickButton = (e) => {
     e.preventDefault();
     axios
-      .post("http://localhost:4000/users/new", {
+      .post("https://backend-serdar-sprotte.herokuapp.com/", {
         age: form.age,
 
         firstName: form.fName,

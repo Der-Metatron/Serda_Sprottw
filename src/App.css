@@ -42,10 +42,10 @@ body .form button {
   width: 8%;
   margin-top: 8px;
   padding: 12px 10px;
-  border-radius: 1rem;
+  border-radius: 5px;
   background-color: orange;
   -webkit-box-shadow: 1px 1px 5px 5px black;
-  box-shadow: 1px 1px 5px 5px rgb(239, 0, 0);
+  box-shadow: 1px 1px 5px 5px black;
   border: 2px solid;
 }
 
@@ -88,9 +88,9 @@ body table .icon_trash {
 
 body table th,
 body table td {
-  border: 5px solid black;
+  border: 1px solid black;
   padding: 10px;
-  color: rgb(255, 0, 0);
+  color: #111;
 }
 
 body table td:hover {
@@ -127,3 +127,4 @@ body nav ul li a.active {
   color: yellow;
   font-size: 1.5rem;
 }
+/*# sourceMappingURL=App.css.map */
