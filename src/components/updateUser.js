@@ -50,6 +50,7 @@ export const UpdateUser = () => {
         navigate("/");
       })
       .catch((err) => {
+        console.log(err.message);
         alert("This site is not available!");
       });
   };

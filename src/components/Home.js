@@ -10,7 +10,7 @@ export const Home = () => {
 
   useEffect(() => {
     axios
-      .get("https://backend-serdar-sprotte.herokuapp.com/") /* Kein slash */
+      .get("https://backend-serdar-sprotte.herokuapp.com") /* Kein slash */
       .then((response) => {
         setUsers(response.data);
         console.log(response.data);
