@@ -5,18 +5,21 @@ import FontAwesome from "react-fontawesome";
 import { confirm } from "react-confirm-box";
 import { Link } from "react-router-dom";
 
+const url = process.env.REACT_APP_HEROKU;
+console.log(url);
+
 export const Home = () => {
   const [users, setUsers] = useState([]);
 
   useEffect(() => {
     axios
-      .get("https://backend-serdar-sprotte.herokuapp.com") /* Kein slash */
+      .get(url) /* Kein slash */
       .then((response) => {
         setUsers(response.data);
         console.log(response.data);
       })
       .catch((err) => {
-        console.log("error");
+        console.log(err);
       });
   }, []);
 
@@ -24,7 +27,7 @@ export const Home = () => {
     const result = await confirm("Do you want delete?");
     if (result) {
       axios
-        .delete(`https://backend-serdar-sprotte.herokuapp.com/user/${id}`)
+        .delete(`${url}/user/${id}`)
         .then(() => {
           setUsers((user) =>
             users.filter((user) => {

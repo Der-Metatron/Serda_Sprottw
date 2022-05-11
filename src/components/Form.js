@@ -3,6 +3,8 @@ import React from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 
+const url = process.env.REACT_APP_HEROKU;
+
 export const Form = () => {
   const navigate = useNavigate();
   const [form, setForm] = useState({
@@ -20,7 +22,7 @@ export const Form = () => {
   const onClickButton = (e) => {
     e.preventDefault();
     axios
-      .post("https://backend-serdar-sprotte.herokuapp.com/users/new", {
+      .post(url + "/users/new", {
         age: form.age,
 
         firstName: form.fName,

@@ -3,6 +3,8 @@ import React from "react";
 import axios from "axios";
 import { useNavigate, useParams } from "react-router-dom";
 
+const url = process.env.REACT_APP_HEROKU;
+
 export const UpdateUser = () => {
   const navigate = useNavigate();
   const { id } = useParams();
@@ -22,7 +24,7 @@ export const UpdateUser = () => {
   useEffect(() => {
     if (id) {
       axios
-        .get("https://backend-serdar-sprotte.herokuapp.com/" + id)
+        .get(url + "/" + id)
         .then((res) => {
           setForm({
             fName: res.data.firstName,
@@ -40,7 +42,7 @@ export const UpdateUser = () => {
   const onClickButton = (e) => {
     e.preventDefault();
     axios
-      .put("https://backend-serdar-sprotte.herokuapp.com/" + id, {
+      .put(url + "/" + id, {
         age: form.age,
         email: form.email,
         firstName: form.fName,

@@ -1,6 +1,5 @@
 {
   "name": "mongo-frontend",
-  "homepage": "https://der-metatron.github.io/Serda_Sprottw/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
